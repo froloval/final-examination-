@@ -36,7 +36,7 @@ string[] mass = new string[len];
 int LenNewMass = 0;
 for (int i = 0; i < mass.Length; i++)
 {
-    mass[i] = Prompt("введите строку");
+    mass[i] = Prompt("введите строку ");
     if (mass[i].Length < 4)
     {
         LenNewMass++;
@@ -52,6 +52,7 @@ for (int i = 0; i < mass.Length; i++)
         index++;
     }
 }
+Console.WriteLine("Результат");
 PrintIntArray(NewMass);
 
 
